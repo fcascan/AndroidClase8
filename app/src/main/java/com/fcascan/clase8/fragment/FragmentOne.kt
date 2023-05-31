@@ -11,12 +11,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
-import androidx.lifecycle.MutableLiveData
 import com.fcascan.clase8.R
-import com.fcascan.clase8.model.Pokemon
 import com.google.android.material.snackbar.Snackbar
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
 
 enum class LoadingState {
     LOADING,
